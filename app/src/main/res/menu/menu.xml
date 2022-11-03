@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/about"
+        android:title="A propos!" />
+    <item android:id="@+id/menu_search"
+        android:title="Chercher Contact"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+</menu>

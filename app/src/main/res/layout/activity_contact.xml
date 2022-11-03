@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".NewCourseActivity">
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="2dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="400dp">
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/item_planete_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_contactnew_foreground"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="Image du Contact" />
+        </androidx.cardview.widget.CardView>
+
+
+        <!--edit text for our course name-->
+        <EditText
+            android:id="@+id/idEdtCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Entrer Nom du Contact"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/idEdtCoursePrename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Entrer Prenom du Contact"
+            android:inputType="text" />
+
+        <!--edit text for course description-->
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/idEdtCourseTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:maxLength="9"
+            android:hint="Entrer Telephoone du Contact" />
+
+        <!--edit text for our course description-->
+        <EditText
+            android:inputType="text"
+            android:id="@+id/idEdtCourseDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Entrer Description du Contact" />
+
+        <!--button for saving data to room database-->
+        <Button
+            android:id="@+id/idBtnSaveCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="Enregistrer Contact"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

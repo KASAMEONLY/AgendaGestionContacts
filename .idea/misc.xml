@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_contact_background.xml" value="0.15" />
+        <entry key="app/src/main/res/drawable/ic_contactnew_background.xml" value="0.111" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.111" />
+        <entry key="app/src/main/res/layout/activity_contact.xml" value="0.30173775671406006" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.30173775671406006" />
+        <entry key="app/src/main/res/layout/contact_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/lv1.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/lv2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/lv3.xml" value="0.1640625" />
+        <entry key="app/src/main/res/layout/menu.xml" value="0.1640625" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_contact.xml" value="0.111" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_contact_round.xml" value="0.111" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_contactapp_round.xml" value="0.1675" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_contactnew.xml" value="0.1675" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.111" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.111" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
